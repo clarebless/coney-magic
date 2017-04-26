@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+/*-----------Banner-----------*/
+.main-banner {
+    
+    width: 100%;
+    height: 250px;
+    background: url(../images/coney_island_banner.jpg);
+    background-size: cover; 
+    background-position: center; 
+    position: relative;    
+}
+
+
+.main-banner h1{
+    position: absolute;
+    left:10px;
+    bottom: 10px;
+    text-shadow: 3px 3px 3px #fff;
+    font-family: 'Ceviche One', cursive;
+    color: #C12E38;
+    font-size: 72px;
+}
+
+/*----------------Nav Bar-------------------------*/
+
+.nav{
+    
+    width:100%;
+    height: 95px; 
+    text-decoration: none;
+    background: #EAD12E;
+    font-family: 'Ceviche One', cursive;
+    color: #C12E38;
+    font-size: 46px;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+
+.nav ul{
+    list-style: none; 
+    text-align: center; 
+    padding: 10px 0px 10px 0px;    
+}
+
+
+.nav ul li{
+    
+    width:20%;
+    float:left;
+    text-align: center;
+    display: inline-block;     
+}
+
+
+.nav ul li a {
+    
+    text-decoration: none; 
+    padding: 5px;
+    transition: .5s;
+    font-size:46px;
+    font-weight:700;
+    display:inline-block;
+    background: #EAD12E;
+    font-family: 'Ceviche One', cursive;
+    color: #C12E38;
+    text-shadow: 3px 3px 3px #000000;
+}
+  
+
+.nav ul li a:hover{
+    
+    background: #C12E38;
+    font-family: 'Ceviche One', cursive;
+    color: #EAD12E;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+/*------------------General styles - all pages-------------------*/
+
+
+h1{
+    color: #EAD12E; 
+    font-size: 82px;
+    font-family: 'Ceviche One', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 3px #000000;
+    
+}
+
+
+h2{
+    color: #EAD12E;
+    font-size: 36px;
+    font-family: 'Halant', serif;
+    text-shadow: 3px 3px 3px #000000;
+    text-align:left;
+}
+
+
+
+p{
+    color:#000000;
+    font-size: 16px;
+    font-family: 'Halant', serif;
+    text-align: left;
+    
+}
+
+img {
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+    
+
+/*----------------------Main Content History Page------------------*/
+.main{
+	position:absolute;
+	left:0;
+	top:345px;
+    background: #C12E38;
+    height:2260px;
+    width: 100%;
+    float: right;
+    padding: 70px 70px 70px 70px;
+}
+
+.main-yellow{
+	position:absolute;
+	top:60px;
+	left: 40%;
+    background: #EAD12E;
+    height:2100px;
+    width: 56%;
+    float: left;
+    padding: 70px 70px 70px 70px;
+    margin: 0px 30px 0px 30px;
+    z-index:2;
+    
+}
+
+.main-yellow h1{
+	color:#C12E38;
+    font-size: 64px;
+    font-family: 'Ceviche One', cursive;
+    text-align:center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.main-yellow h2{
+	 color:#C12E38;
+    font-size: 58px;
+    font-family: 'Ceviche One', cursive;
+    text-align:center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+
+/*-----------------------side bar History Page================*/
+
+.side-top{
+
+	position: absolute;
+	top:405px;
+	left: 0;
+	height: 1250px;
+	width: 35%;
+	background: #EAD12E;
+	float:left;
+	padding: 0px 60px 40px 40px;
+	margin: 0px 30px 0px 30px;
+	z-index:2;
+	
+}
+
+.side-bottom{
+	position: absolute;
+	top: 1755px;
+	left:0;
+	height:750px;
+	width: 35%;
+	background: #EAD12E;
+	clear:left;
+	padding: 40px 60px 40px 40px;
+	margin: 0px 30px 0px 30px;
+	z-index:2;
+	
+}
+
+.side-top h1{
+    
+    color:#C12E38;
+    font-size: 64px;
+    font-family: 'Ceviche One', cursive;
+    text-align:center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.side-bottom h1{
+    
+    color:#C12E38;
+    font-size: 64px;
+    font-family: 'Ceviche One', cursive;
+    text-align:center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.side-top h2{
+    
+    color:#C12E38;
+    font-size: 58px;
+    font-family: 'Ceviche One', cursive;
+    text-align:center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.side-bottom h2{
+    
+    color:#C12E38;
+    font-size: 58px;
+    font-family: 'Ceviche One', cursive;
+    text-align:center;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.side-top img{
+	height:387px; 
+	width:350px;
+	text-align: center;
+}
+
+.side-bottom img{
+	 height:164px; 
+	 width:169px;
+	text-align: center;
+}
+
+
+
+/*------------main section index page (front)--------------*/
+.main-front{
+    background: #ffffff;
+    height:auto;
+    width: 100%;
+    float: left;
+    padding: 60px 70px 60px 70px;
+    
+}
+
+
+.main-front h1{
+        
+        color: #C12E38; 
+        font-size: 82px;
+        font-family: 'Ceviche One', cursive;
+        text-align: center;
+        text-shadow: 3px 3px 3px #000000;
+        
+}
+        
+    
+.main-front img{
+        
+        width:900px;
+        height:695px;
+        padding: 50px;
+}
+        
+/*----------------main two - secrets and events pages----------------*/
+
+
+.main-two{
+    background: #C12E38;
+    height:2500px;
+    width: 100%;
+    padding: 60px 60px 0px 60px; 
+    
+}
+
+
+/*-------------------Columns Container - events page-----------*/
+
+.col-container {
+    position: absolute;
+    top: 1600px ;
+    left: 0px;
+    -moz-column-count:3;
+    -webkit-column-count:3;
+    column-count:3;
+    -moz-column-gap: 20px;
+    -webkit-column-gap:20px;
+    column-gap:20px;
+    -moz-column-width:31%;
+    -webkit-column-width:31%;
+    column-width:31%;
+    display:inline-block;
+    overflow: none;
+    padding: 30px 40px 30px 40px;
+  
+}
+
+.col-3-left {
+  float: left;
+  padding: 30px;
+  
+}
+
+.col-3-left img{
+  height: 189px; 
+  width: 310px; 
+  text-align: center;
+    
+}
+
+.col-3-middle {
+    float:left; 
+    padding: 30px;
+    
+}
+
+.col-3-middle img{
+    height: 145px; 
+    width: 290px;
+    text-align:center;
+
+}
+
+.col-3-right {
+    float:left;
+    padding: 30px;
+    display:inline-block;
+    text-align: left;
+    
+}
+
+.col-3-right img{
+    
+   height:174px;
+   width:310px;
+   text-align: center;
+   
+}
+
+
+/*---------------form - sign-up page-------------------*/
+
+
+input {
+    
+    width:20%;
+    padding: 5px;
+    display: inline-block;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+input[type="radio"] {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    margin:30px;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+
+input[type=button],
+input[type=submit]{
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 10px;
+  cursor:cell;
+    background: #EAD12E; 
+  text-decoration: none;  
+  font-size: 25px;
+  font-family: 'Ceviche One', cursive;
+
+    
+}
+
+
+.signup{
+    position: absolute;
+    left: 10%;
+    Top:350px;
+    background: #C12E38;
+    height:1740px;
+    width: 70%;
+    
+}
+
+.form{
+    font-size: 25px;
+    font-family: 'Ceviche One', cursive; 
+}
+
+.form p{
+    font-size: 35px;
+    font-align:left;
+    font-family: 'Ceviche One', cursive; 
+}
+
+
+/*-----------------embedded Google CALENDAR---------------------*/
+
+iframe{
+    position:absolute;
+    left:15%;
+    top:550px;
+    width: 1200px;
+    height: 1000px;
+    frameborder: 200px solid #ead12e;
+    scrolling: no;
+    display: inline-block;
+    
+    
+}
+
+
+/*------------------footer - all pages (not history)-------------------*/
+.footer{
+    position: absolute;
+    top:2800px;
+    left:0px;
+    clear: both;
+    width: 100%;
+    text-align:center;
+    padding: 20px 0px 50px 0px;
+    background: #EAD12E;
+    
+}
+
+.footer p{
+     color:#000000;
+    font-size: 16px;
+    font-family: 'Halant', serif;
+    text-align: center;
+    
+    
+}
+
+/*----------------history page footer-------------------------*/
+
+.footer-history{
+	position:absolute;
+	left;0px;
+	top: 2605px;
+	clear: both;
+    width: 100%;
+    text-align:center;
+    margin: 0px;
+    padding: 20px 0px 50px 0px;
+    background: #EAD12E;
+    z-index:2;
+}
+
+.footer-history p{
+     color:#000000;
+    font-size: 16px;
+    font-family: 'Halant', serif;
+    text-align: center;
+    
+}
+
+/*--------------------horizontal rule - secrets page----------*/
+
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid #EAD12E;
+    margin: 1em auto;
+    padding: 0;
+}
+
